@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Patient Details</title>
+</head>
+<body>
+
+<form action="/predict" method="Post">					
+
+<input type="int" name="exp" placeholder="age"/>
+<br />
+<input type="int" name="sex" placeholder="sex (Enter 0 for M and 1 for F)" />
+<br />
+<input type="int" name="cp" placeholder="chest pain (Enter value 0-4)" />
+<br />
+<input type="int" name="rbp" placeholder="resting blood pressure" />
+<br />
+<input type="int" name="chol" placeholder="cholestoral in mg/dl" />
+<br />
+<input type="int" name="fbs" placeholder="fbs > 120 mg/dl (Enter 0 for F and 1 for T" )/>
+<br />
+<input type="Submit" />
+</form>
+
+{{data}}
+</body>
+
+</html>
