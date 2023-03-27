@@ -1,8 +1,7 @@
 # Python-Flask---Heart-Attack-Predictor
-Using flask, html, mysql connector to create a tool used by doctors to identify patients likely to get a heart attack
+Flask, html, mysql connector is used to create a tool for doctors to identify patients' likelihood of suffering from heart attacks.
 
-Use the user information provided to enter user details in the login page.
-Upon submitting, enter patient medical details to obtain predictive results of likelihood of heart attack.
-Final result is provided in a new page.
+User information is provided to enter details in the login page.
+Patient medical history is used to obtain predictive results of likelihood of heart attack.
 
-Classification is done using Logistic Regression to heart data downloaded from Kaggle. 
+Prediction is done using Logistic Regression. Data downloaded from Kaggle. 
