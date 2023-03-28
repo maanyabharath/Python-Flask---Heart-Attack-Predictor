@@ -43,7 +43,7 @@ def main():
 @app.route("/login",methods=["POST"])
 def validate():
     conn = pms.connect(host="localhost",port=3306,user="root",
-                       password="Balavidyamandir03/",db="dbms")
+                       password="password",db="dbms")
 
     sql="select * from doctor"
     df=pd.read_sql(sql,conn)
