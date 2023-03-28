@@ -1,9 +1,6 @@
 from flask import Flask, request, render_template,redirect,url_for
 app = Flask(__name__)
-import pickle
 
-
-#model = pickle.load(open('model.pkl','rb'))
 
 import pandas as pd
 import pymysql as pms
@@ -67,7 +64,6 @@ def pred():
 if __name__=='__main__':
     app.run(host='localhost',port=5000)
 
-pickle.dump(model, open('model.pkl', 'wb'))
 
 
 
